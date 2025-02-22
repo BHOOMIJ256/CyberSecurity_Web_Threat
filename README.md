@@ -66,5 +66,11 @@ Autoencoders identified **15 anomalies**, providing a balanced detection mechani
 
 **Autoencoders:** layers, neurons, threshold
 
+# 📌 Why This Project Matters?
+
+With the rise of cyber threats, traditional rule-based security methods fail to detect evolving attacks. This ML-powered system adapts & learns, making it an essential tool for modern cybersecurity solutions.
+
+🔹 Security Focused | AI-Powered | Scalable 🔹
+
 
 
