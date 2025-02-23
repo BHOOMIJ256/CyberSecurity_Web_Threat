@@ -66,11 +66,25 @@ Autoencoders identified **15 anomalies**, providing a balanced detection mechani
 
 **Autoencoders:** layers, neurons, threshold
 
+
 # 📌 Why This Project Matters?
 
 With the rise of cyber threats, traditional rule-based security methods fail to detect evolving attacks. This ML-powered system adapts & learns, making it an essential tool for modern cybersecurity solutions.
 
 🔹 Security Focused | AI-Powered | Scalable 🔹
+
+# 📊Key Takeaways & Final Interpretation 
+
+* **Isolation Forest** identified **28 anomalies**, a moderate amount, **but its results** **depend on** the **contamination parameter.**
+* DBSCAN was **highly conservative**, marking **only 3 data points as anomalies**, possibly due to **dense clustering** in the dataset.
+* **Autoencoders**, based on threshold tuning, **detected anomalies effectively** but **required fine-tuning for optimal performance**.
+
+#  🚀 Final Verdict:
+
+* If real-time anomaly detection is needed with less labeled data, **Isolation Forest** is a good choice with **proper contamination tuning**.
+* If **anomalies are density-based** and attacks form clusters, **DBSCAN may be usefu**l but requires **tuning eps and min_samples**.
+* If a **deep learning approach** is preferred for detecting **complex attack patterns, Autoencoders are the most flexible**.
+
 
 
 
